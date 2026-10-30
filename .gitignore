@@ -1,17 +1,12 @@
-# Cria o .gitignore na pasta atual
+Remove-Item .gitignore -Force
 @"
-# Compilados Java
 *.class
 out/
 bin/
-
-# IDE
 .vscode/
 .idea/
 *.iml
-
-# Sistema
 .DS_Store
 Thumbs.db
 desktop.ini
-"@ | Out-File -FilePath ".gitignore" -Encoding utf8
+"@ | Out-File -FilePath ".gitignore" -Encoding ascii
