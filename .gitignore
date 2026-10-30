@@ -1,0 +1,17 @@
+# Cria o .gitignore na pasta atual
+@"
+# Compilados Java
+*.class
+out/
+bin/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+"@ | Out-File -FilePath ".gitignore" -Encoding utf8

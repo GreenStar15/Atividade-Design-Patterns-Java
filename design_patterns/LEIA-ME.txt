@@ -1,0 +1,26 @@
+==========================================================
+DESIGN PATTERNS - Grupo 4
+Decorator + Template Method
+==========================================================
+
+ESTRUTURA
+  decorator/         -> Exemplo do padrao Decorator
+  template_method/   -> Exemplo do padrao Template Method
+
+COMO COMPILAR (PowerShell)
+  javac -d out (Get-ChildItem decorator\*.java, template_method\*.java)
+
+COMO COMPILAR (cmd)
+  javac -d out decorator\*.java template_method\*.java
+
+COMO EXECUTAR
+  java -cp out decorator.MainDecorator
+  java -cp out template_method.MainTemplate
+
+REQUISITO
+  Java 17 ou superior instalado (java -version para conferir).
+
+==========================================================
+INTEGRANTES
+  Gabriel, Henrique, Joao Lara, Natacha, Yoran, Danilo
+==========================================================
